@@ -149,8 +149,15 @@ export default {
        {
         from       : '2015',
         to         : '2015',
-        title      : 'Diplomado Seguridad permietral ',
+        title      : 'Computer security course and forensic computing',
         location   : 'Duriva',
+        description: '',
+      },
+      {
+        from       : '2017',
+        to         : '2017',
+        title      : 'Diploma in advanced 3d biomedical prostheses',
+        location   : 'P4H',
         description: '',
       },
     ],
@@ -158,7 +165,7 @@ export default {
       {
         title: 'PHP',
         icon : 'mdi-language-php',
-        value: 95,
+        value: 87,
       },
       {
         title: 'JavaScript',
@@ -199,7 +206,7 @@ export default {
       {
         title: 'Continuous Integration / Continuous Delivery',
         icon : 'mdi-source-branch-refresh',
-        value: 40,
+        value: 30,
       },
       {
         title: 'Git',
@@ -208,25 +215,24 @@ export default {
       },
       { divider: true },
       {
-        title: 'Hardware Development',
-        icon : 'mdi-chip',
-        value: 29,
-      },
-      {
         title: 'Python',
         icon : 'mdi-language-python',
         value: 70,
       },
-      { divider: true },
       {
-        title: 'Leadership',
-        icon : 'mdi-account-group',
-        value: 68,
+        title: 'Docker Containers',
+        icon : 'mdi-docker',
+        value: 32,
       },
       {
-        title: 'Content Marketing (+340 articles)',
-        icon : 'mdi-text',
-        value: 96,
+        title: 'Mysql',
+        icon : 'mdi-database-search',
+        value: 56,
+      },
+      {
+        title: 'Css',
+        icon : 'mdi-language-css3',
+        value: 70,
       },
     ],
   }),

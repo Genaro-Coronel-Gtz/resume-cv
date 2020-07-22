@@ -5,8 +5,17 @@
         <v-carousel-item
         v-for="(proyecto,i) in proyectos"
         :key="i"
+        :interval="8500"
         >
+        <div v-if="proyecto.extension == 'imagen'" >
             <img :src="proyecto.imagen" style="width:100%; height:auto;" :alt="proyecto.imagen"/>
+        </div>
+        <div v-else>    
+            <video width="100%" height="auto" controls>
+              <source :src="proyecto.imagen" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div> 
         </v-carousel-item>
   </v-carousel>
 
@@ -23,6 +32,7 @@
         }
     },
     data: () => ({
+        duracion_imagen: 8500,
         posts: [
             { 
               titulo: 'Editores de código', 
@@ -50,17 +60,17 @@
             },
         ],
         proyectos : [
-            {  imagen: 'img/portafolio/chat_c4.png' },
-            {  imagen: 'img/portafolio/crear_producto_servidito.jpg' },
-            {  imagen: 'img/portafolio/dentalife.png' },
-            {  imagen: 'img/portafolio/graficas_c4.png' },
-            {  imagen: 'img/portafolio/jensuy_cart.jpg' },
-            {  imagen: 'img/portafolio/jensuy_home.jpg' },
-            {  imagen: 'img/portafolio/listado_pedidos_servidito.jpg' },
-            {  imagen: 'img/portafolio/listado_servidito.png' },
-            {  imagen: 'img/portafolio/map_c4.png' },
-            {  imagen: 'img/portafolio/menu_servidito.png' },
-            {  imagen: 'img/portafolio/selector_avatar.jpg' },
+            {  imagen: 'img/portafolio/dentalife.png', time: 8500, extension: 'imagen' },
+            {  imagen: 'img/portafolio/chat_c4.png', time : 8500, extension: 'imagen' },
+            {  imagen: 'img/portafolio/graficas_c4.png', time : 8500, extension: 'imagen' },
+            {  imagen: 'img/portafolio/map_c4.png', time : 8500, extension: 'imagen' },
+            {  imagen: 'img/portafolio/jensuy.png', time : 8500, extension: 'imagen' },
+            {  imagen: 'img/portafolio/jensuy2.png', time : 8500, extension: 'imagen' },
+            {  imagen: 'img/portafolio/jensuy_cart.jpg', time : 8500, extension: 'imagen' },
+            {  imagen: 'img/portafolio/servidito.png', time : 8500, extension: 'imagen' },
+            {  imagen: 'img/portafolio/selector_avatar.jpg', time : 8500, extension: 'imagen' },
+            {  imagen: 'img/portafolio/crear_producto_servidito.jpg', time : 8500, extension: 'imagen' },
+            // {  imagen: 'img/portafolio/C4-Video.mp4', time: 45000, extension: 'video' },
         ]
     }),
   }

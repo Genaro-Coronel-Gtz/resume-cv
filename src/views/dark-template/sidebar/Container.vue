@@ -106,12 +106,12 @@ export default {
           title: 'SOCIALS',
           items: [
             {
-              icon: 'mdi-github-circle',
+              icon: 'mdi-github',
               text: 'github.com/Crowley-Coronel',
               link: 'https://github.com/Crowley-Coronel',
             },
             {
-              icon: 'mdi-linkedin-box',
+              icon: 'mdi-linkedin',
               text: 'linkedin.com/in/genaro-coronel-066b17122/',
               link: 'https://www.linkedin.com/in/genaro-coronel-066b17122/',
             },

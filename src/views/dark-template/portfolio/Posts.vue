@@ -21,7 +21,7 @@
                     color="gray"
                     @click="open(post.url)"
                 >
-                 <v-icon>mdi-eye</v-icon>
+                 <v-icon>mdi-glasses</v-icon>
                 </v-btn>
             </v-card-actions>
         </v-card>
