@@ -3,7 +3,6 @@
     color="grey darken-3"
     dark
   >
-  
     <v-card-text>
       <avatar />
       <div class="text-sm-center mb-4 mt-3">
@@ -131,10 +130,10 @@ export default {
           title: 'HOBBIES',
           items: [
 
-            {
-              icon: 'mdi-bike',
-              text: 'Cycling',
-            },
+            // {
+            //   icon: 'mdi-bike',
+            //   text: 'Cycling',
+            // },
             {
               icon: 'mdi-auto-fix',
               text: 'Hacking Stuffs',

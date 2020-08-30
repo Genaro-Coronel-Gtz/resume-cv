@@ -7,7 +7,7 @@
       <content-section
         title="Who am I?"
       >
-        I'm a Mechatronic Enginner and software developer born in Mexico and co-founder of <a href="http://www.dim3nsoft.com">Dim3nsoft</a> and <a href="http://servidito.com"> Servidito </a>.<br><br>
+        I'm a Mechatronic Enginner and software developer born in Mexico, co-founder of <a href="http://www.dim3nsoft.com">Dim3nsoft</a> and <a href="http://servidito.com"> Servidito </a>.<br><br>
         I'm interested and skilled in different topics of Information Technology including programming, web development, and IoT.
       </content-section>
       <content-section
@@ -132,7 +132,7 @@ export default {
         text  : 'Develop clean code ',
         source: '(Yes, i read uncle bob, clean code book!)',
       },
-       {
+      {
         icon  : 'mdi-human-greeting',
         text  : 'Always be profesional, always be kind!',
         source: '(No matters what happend - Be profesional!)',
@@ -146,7 +146,7 @@ export default {
         location   : 'Tecnologico Nacional de Mexico (Campus Veracruz)',
         description: 'Antorcha y luz de fuego permanente.',
       },
-       {
+      {
         from       : '2015',
         to         : '2015',
         title      : 'Computer security course and forensic computing',

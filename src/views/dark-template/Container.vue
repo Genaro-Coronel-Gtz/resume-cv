@@ -32,8 +32,8 @@
               </v-layout>
               <v-layout>
                 <v-flex md12>
-                  <Posts/>
-                  <Portfolio/>
+                  <posts />
+                  <portfolio />
                 </v-flex>
               </v-layout>
             </v-flex>
@@ -42,7 +42,7 @@
       </v-content>
     </v-fade-transition>
     <footer style="background-color: black; color: white; text-align: center;">
-          Template based in https://evryn.github.io/vue-modern-resume/ 
+      Template based in https://evryn.github.io/vue-modern-resume/
     </footer>
   </v-app>
 </template>
@@ -50,8 +50,8 @@
 <script>
 import SidebarContainer from '@/views/dark-template/sidebar/Container'
 import ContentContainer from '@/views/dark-template/content/Container'
-import TimelinePrimary from '@/views/dark-template/timeline/Primary'
-import TimelineEndless from '@/views/dark-template/timeline/Endless'
+// import TimelinePrimary from '@/views/dark-template/timeline/Primary'
+// import TimelineEndless from '@/views/dark-template/timeline/Endless'
 import Portfolio from '@/views/dark-template/portfolio/Portfolio'
 import Posts from '@/views/dark-template/portfolio/Posts'
 import LeaderLine from 'leader-line'
@@ -63,8 +63,8 @@ export default {
     Portfolio,
     Posts,
     GithubRibbon,
-    TimelineEndless,
-    TimelinePrimary,
+    // TimelineEndless,
+    // TimelinePrimary,
     ContentContainer,
     SidebarContainer,
   },
@@ -86,9 +86,9 @@ export default {
 <style scoped>
 #dark-template {
   height: 100%;
-  background: #66668d;
-  background: -webkit-linear-gradient(to left, #66668d, #4389a2);
-  background: linear-gradient(to left, #66668d, #4389a2);
+  background: #8787b9;
+  background: -webkit-linear-gradient(to left, #8787b9, #4389a2);
+  background: linear-gradient(to left, #8787b9, #4389a2);
   background-size: cover;
 }
 </style>
