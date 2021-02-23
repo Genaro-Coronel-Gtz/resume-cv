@@ -64,12 +64,6 @@ export default {
         content: 'Algunas veces nos encontramos con la problemática de comparar dos arreglos de objetos y verificar si todos los elementos del arreglo 1 existen en el arreglo 2, una vez realizado ese proceso mostramos unicamente los elementos que existen en ambos arreglos.',
         url    : 'https://medium.com/@genarocoronel917/vim-esquemas-de-colores-85ee00b97877',
       },
-      {
-        titulo : 'Mini Blog con Vue Js (Parte 1)',
-        imagen : 'https://miro.medium.com/max/700/1*7pGtqgYA0ALYItHrLVSwxA.png',
-        content: 'El día de hoy te traigo el primer post de una miniserie en la cual aprenderás a crear un pequeño blog haciendo uso del Vue js , también tocaremos algunos temas puntuales del framework que muchas veces no encontramos de manera concisa implementarlos.',
-        url    : 'https://medium.com/@genarocoronel917/mini-blog-con-vue-js-parte-1-52385cb60fa1',
-      },
     ],
   }),
   methods: {

@@ -31,7 +31,7 @@
 <script>
 export default {
   name: 'GithubRibbon',
-  data: () => ({ url: 'https://github.com/Crowley-Coronel' }),
+  data: () => ({ url: 'https://github.com/Genaro-Coronel-Gtz' }),
 }
 </script>
 
