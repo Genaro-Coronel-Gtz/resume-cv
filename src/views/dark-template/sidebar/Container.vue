@@ -106,8 +106,8 @@ export default {
           items: [
             {
               icon: 'mdi-github',
-              text: 'github.com/Crowley-Coronel',
-              link: 'https://github.com/Crowley-Coronel',
+              text: 'github.com/Genaro-Coronel-Gtz',
+              link: 'https://github.com/Genaro-Coronel-Gtz',
             },
             {
               icon: 'mdi-linkedin',
