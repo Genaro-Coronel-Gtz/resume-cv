@@ -9,7 +9,7 @@
       style="color: gray; margin-bottom: 1.2rem; text-align:center"
       class="mx-auto"
     >
-      Some of my posts
+      Some of my articles
     </h1>
     <v-layout
       row
@@ -30,14 +30,6 @@
 
         <v-card-title> <strong> {{ post.titulo }} </strong> </v-card-title>
         <v-card-title> {{ post.content }} </v-card-title>
-        <!-- <v-card-actions>
-                <v-btn
-                    color="gray"
-                    @click="open(post.url)"
-                >
-                 <v-icon>mdi-glasses</v-icon>
-                </v-btn>
-            </v-card-actions> -->
       </v-card>
     </v-layout>
   </v-container>
@@ -62,7 +54,7 @@ export default {
         titulo : 'Coincidencias en arreglo de objetos.',
         imagen : 'https://miro.medium.com/max/584/1*9vuNXBrJwixFqq85rrrZKQ.png',
         content: 'Algunas veces nos encontramos con la problemática de comparar dos arreglos de objetos y verificar si todos los elementos del arreglo 1 existen en el arreglo 2, una vez realizado ese proceso mostramos unicamente los elementos que existen en ambos arreglos.',
-        url    : 'https://medium.com/@genarocoronel917/vim-esquemas-de-colores-85ee00b97877',
+        url    : 'https://medium.com/@genarocoronel917/eliminar-duplicados-en-arreglo-de-objetos-301a53662e9d',
       },
     ],
   }),

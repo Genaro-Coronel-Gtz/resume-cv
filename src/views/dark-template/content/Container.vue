@@ -182,6 +182,21 @@ export default {
         icon : 'mdi-vuejs',
         value: 95,
       },
+      {
+        title: 'React.js Framework',
+        icon : 'mdi-react',
+        value: 55,
+      },
+      {
+        title: 'Ember.js Framework',
+        icon : 'mdi-ember',
+        value: 75,
+      },
+      {
+        title: 'Ruby on Rails',
+        icon : 'mdi-language-ruby-on-rails',
+        value: 85,
+      },
       { divider: true },
       {
         title: 'Ionic Framework',
