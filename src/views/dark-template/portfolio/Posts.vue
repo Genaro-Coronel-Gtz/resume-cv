@@ -2,14 +2,16 @@
   <v-container
     fluid
     grid-list-xl
-    style="background-color: white;"
+    style="background-color: #424242;"
     class="mt-4"
   >
     <h1
-      style="color: gray; margin-bottom: 1.2rem; text-align:center"
+      style="color: white; 
+      margin-bottom: 1.2rem; 
+      text-align:center"
       class="mx-auto"
     >
-      Some of my articles
+      Blog
     </h1>
     <v-layout
       row
@@ -21,15 +23,25 @@
         class="mx-auto mb-5"
         max-width="400"
         @click="open(post.url)"
+        style="border-radius: 15px"
       >
         <v-img
           class="white--text align-end"
           height="200px"
           :src="post.imagen"
         />
-
-        <v-card-title> <strong> {{ post.titulo }} </strong> </v-card-title>
-        <v-card-title> {{ post.content }} </v-card-title>
+        <v-card-text>
+          <v-layout row align-center>
+            <v-flex xs8>
+              <strong> {{ post.titulo }} </strong>
+            </v-flex>
+            <v-flex xs4 class="text-right" style="text-align: right;">
+              <v-icon class="mr-2">mdi-blogger</v-icon>
+              <v-icon>mdi-newspaper-variant</v-icon>
+            </v-flex>
+          </v-layout>
+          <div>{{ post.content }}</div>
+        </v-card-text>
       </v-card>
     </v-layout>
   </v-container>

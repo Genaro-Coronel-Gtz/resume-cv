@@ -7,13 +7,13 @@
       <avatar />
       <div class="text-sm-center mb-4 mt-3">
         <h1>
-          Genaro <span class="light-blue--text text--lighten-3"> Coronel </span>
+          Genaro <span style="color: #B2D7E8"> Coronel </span>
         </h1>
         <span>
-          Mechatronic enginner
+          Ingeniero en Mecatronica
         </span><br>
         <span>
-          Full stack web developer
+          Desarrollador Full Stack
         </span>
       </div>
 
@@ -42,7 +42,7 @@
                 v-for="(item, i) in items"
               >
                 <v-flex
-                  :key="i"
+                  v-key="i"
                   md3
                   sm4
                   xs6
@@ -85,9 +85,9 @@ export default {
               text: 'genarocoronel917@gmail.com',
             },
             {
-              name: 'Website',
+              name: 'Blog',
               icon: 'mdi-web',
-              text: 'www.dim3nsoft.com',
+              text: 'https://genarocoronel.blogspot.com/',
             },
             {
               name: 'Birth Date',
@@ -102,7 +102,7 @@ export default {
           ],
         },
         socials: {
-          title: 'SOCIALS',
+          title: 'SOCIAL',
           items: [
             {
               icon: 'mdi-github',
@@ -130,10 +130,10 @@ export default {
           title: 'HOBBIES',
           items: [
 
-            // {
-            //   icon: 'mdi-bike',
-            //   text: 'Cycling',
-            // },
+            {
+              icon: 'mdi-bike',
+              text: 'Cycling',
+            },
             {
               icon: 'mdi-auto-fix',
               text: 'Hacking Stuffs',
@@ -161,7 +161,7 @@ export default {
           ],
         },
         languages: {
-          title: 'LANGUAGES',
+          title: 'IDIOMAS',
           items: [
             {
               text : 'English',

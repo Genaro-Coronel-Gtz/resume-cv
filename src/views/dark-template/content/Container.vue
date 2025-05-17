@@ -5,14 +5,14 @@
   >
     <v-card-text>
       <content-section
-        title="Who am I?"
+        title="¿Quien soy?"
       >
-        I'm a Mechatronic Enginner and software developer born in Mexico, co-founder of <a href="http://www.dim3nsoft.com">Dim3nsoft</a> and <a href="http://servidito.com"> Servidito </a>.<br><br>
-        I'm interested and skilled in different topics of Information Technology including programming, web development, and IoT.
+        Ingenierio en Mecatronica y desarrollador de Software Méxicano.<br>
+        Estoy interesado en diferentes temas de IT incluidas por supuesto programacion, desrraollo web , desarrollo de videojuegos y IoT.
       </content-section>
       <content-section
         v-if="prouds"
-        title="Proud of?"
+        title="¿Orgulloso de?"
       >
         <v-layout
           v-for="(proud, i) in prouds"
@@ -39,7 +39,7 @@
       </content-section>
       <content-section
         v-if="educations"
-        title="Education"
+        title="Educación"
       >
         <v-layout
           v-for="(education, i) in educations"
@@ -62,7 +62,7 @@
       <content-section
         v-if="skills"
         id="to-timeline"
-        title="Skills"
+        title="Habilidades"
       >
         <template slot="actions">
           (% are relative not absolute)
@@ -119,44 +119,44 @@ export default {
     prouds: [
       {
         icon  : 'mdi-police-badge',
-        text  : 'Development of application to report crimes in the city of Naucalpan!',
-        source: '(C4-24 App - Government project)',
+        text  : 'Desarrollo de aplicacion para denunciar delitos en la ciudad de Naucalpan de Juárez',
+        source: '(C4-24 App - Projecto de Gobierno de México)',
       },
       {
         icon  : 'mdi-truck-delivery-outline',
-        text  : 'Development of application for home orders in San Cristóbal, Chiapas',
-        source: '(Servidito  - Personal project )',
+        text  : 'Desarrollo de aplicaciòn para pedidos a domicilio en San Cristóbal, Chiapas',
+        source: '(Servidito  - Proyecto personal)',
       },
       {
         icon  : 'mdi-code-tags-check',
-        text  : 'Develop clean code ',
-        source: '(Yes, i read uncle bob, clean code book!)',
+        text  : 'Desarrollo codigo limpio ',
+        source: '(Si, leei al tio Bob, El libro de codigo limpio.)',
       },
       {
         icon  : 'mdi-human-greeting',
-        text  : 'Always be profesional, always be kind!',
-        source: '(No matters what happend - Be profesional!)',
+        text  : 'Siempre se profesional, siempre se amable',
+        source: '(No importa que suceda - Se profesional!)',
       },
     ],
     educations: [
       {
         from       : '2009',
         to         : '2014',
-        title      : 'Bachelor\'s degree, Mechatronic enginner',
+        title      : 'Ingenierio en Mecatronica',
         location   : 'Tecnologico Nacional de Mexico (Campus Veracruz)',
         description: 'Antorcha y luz de fuego permanente.',
       },
       {
         from       : '2015',
         to         : '2015',
-        title      : 'Computer security course and forensic computing',
+        title      : 'Curso de seguridad informatica y computo forense',
         location   : 'Duriva',
         description: '',
       },
       {
         from       : '2017',
         to         : '2017',
-        title      : 'Diploma in advanced 3d biomedical prostheses',
+        title      : 'Diplomado en prótesis biomédicas 3d avanzadas',
         location   : 'P4H',
         description: '',
       },
@@ -183,19 +183,19 @@ export default {
         value: 95,
       },
       {
-        title: 'React.js Framework',
+        title: 'React Framework',
         icon : 'mdi-react',
-        value: 55,
+        value: 95,
       },
       {
         title: 'Ember.js Framework',
         icon : 'mdi-ember',
-        value: 75,
+        value: 80,
       },
       {
         title: 'Ruby on Rails',
         icon : 'mdi-language-ruby-on-rails',
-        value: 85,
+        value: 90,
       },
       { divider: true },
       {
@@ -216,33 +216,33 @@ export default {
       {
         title: 'Test Driven Development',
         icon : 'mdi-test-tube',
-        value: 26,
+        value: 40,
       },
       {
         title: 'Continuous Integration / Continuous Delivery',
         icon : 'mdi-source-branch-refresh',
-        value: 30,
+        value: 50,
       },
       {
         title: 'Git',
         icon : 'mdi-git',
-        value: 75,
+        value: 85,
       },
       { divider: true },
       {
         title: 'Python',
         icon : 'mdi-language-python',
-        value: 70,
+        value: 90,
       },
       {
         title: 'Docker Containers',
         icon : 'mdi-docker',
-        value: 32,
+        value: 75,
       },
       {
         title: 'Mysql',
         icon : 'mdi-database-search',
-        value: 56,
+        value: 80,
       },
       {
         title: 'Css',

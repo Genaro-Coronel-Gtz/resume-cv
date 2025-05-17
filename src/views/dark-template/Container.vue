@@ -42,7 +42,8 @@
       </v-content>
     </v-fade-transition>
     <footer style="background-color: black; color: white; text-align: center;">
-      Template based in https://evryn.github.io/vue-modern-resume/
+      <!-- Template based in https://evryn.github.io/vue-modern-resume/ -->
+      Genaro Coronel / Digital CV / genarocoronel917@gmail.com
     </footer>
   </v-app>
 </template>
@@ -86,9 +87,10 @@ export default {
 <style scoped>
 #dark-template {
   height: 100%;
-  background: #8787b9;
-  background: -webkit-linear-gradient(to left, #8787b9, #4389a2);
-  background: linear-gradient(to left, #8787b9, #4389a2);
+  /* background: #8787b9; */
+  background: #29292c;
+  /* background: -webkit-linear-gradient(to left, #8787b9, #4389a2);
+  background: linear-gradient(to left, #8787b9, #4389a2); */
   background-size: cover;
 }
 </style>
