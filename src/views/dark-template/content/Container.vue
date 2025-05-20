@@ -5,14 +5,21 @@
   >
     <v-card-text>
       <content-section
-        title="¿Quien soy?"
+        title="Acerca de mí"
       >
-        Ingenierio en Mecatronica y desarrollador de Software Méxicano.<br>
-        Estoy interesado en diferentes temas de IT incluidas por supuesto programacion, desrraollo web , desarrollo de videojuegos y IoT.
+          Soy un profesional con más de 10 años de experiencia en el mundo de desarrollo de software, he tenido la oportunidad de
+        trabajar en empresas como: Fracttal, Ecaresoft, Mienivo , Otisa viajes y tours, gracias a esto pude crecer profesionalmente como
+        desarrollador Full Stack, entre la experiencia que adquirí a lo largo de estos viajes fue: desarrollo, mantenimiento, depuración y
+        realización de pruebas de integración y unitarias de aplicaciones web en diferentes sectores empresariales como: turismo, gestión
+        de entrega de paquetes, administración de consultorios médicos y gestión y mantenimiento de activos.
+        <br>
+        Disfruto de desarrollar software mantenible y de calidad , explorar nuevas tecnologías y mantenerse actualizado en temas sobre
+        desarrollo de software y en general sobre todo el mundo de IT.
+
       </content-section>
       <content-section
         v-if="prouds"
-        title="¿Orgulloso de?"
+        title="Lo que he construido"
       >
         <v-layout
           v-for="(proud, i) in prouds"
@@ -65,7 +72,7 @@
         title="Habilidades"
       >
         <template slot="actions">
-          (% are relative not absolute)
+          <!-- (% are relative not absolute) -->
         </template>
         <v-layout wrap>
           <template
@@ -80,7 +87,7 @@
             />
             <v-flex
               v-else
-              :key="i"
+              V-key="i"
               md6
               xs12
             >
@@ -130,7 +137,7 @@ export default {
       {
         icon  : 'mdi-code-tags-check',
         text  : 'Desarrollo codigo limpio ',
-        source: '(Si, leei al tio Bob, El libro de codigo limpio.)',
+        source: '(Si, el libro de codigo limpio del tio Bob.)',
       },
       {
         icon  : 'mdi-human-greeting',

@@ -99,6 +99,11 @@ export default {
               icon: 'mdi-map-marker',
               text: 'Chiapas, Mex',
             },
+            {
+              name: 'Curriculm Vitae',
+              icon: 'mdi-file-document',
+              text: 'https://tinyurl.com/genaro-coronel',
+            },
           ],
         },
         socials: {
