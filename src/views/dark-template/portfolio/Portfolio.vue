@@ -13,13 +13,13 @@
     </h1>
     <v-carousel
       :show-arrows="false"
-      style="height: 900px; background-color: red;"
+      style="height: 900px;"
     >
       <v-carousel-item
         v-for="(proyecto,i) in proyectos"
         :key="i"
         :interval="8500"
-        style="height: 900px; background-color: cyan;"
+        style="height: 900px;"
       >
         <div v-if="proyecto.extension == 'imagen'">
           <img
